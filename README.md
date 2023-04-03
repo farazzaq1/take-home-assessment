@@ -2,7 +2,7 @@
 
 This is a FastAPI server that exposes two APIs - jumble and audit. The jumble API takes a word and returns a jumbled version of it. The audit API returns the last 10 requests made to the jumble API.
 
-# Prerequisites
+# Prerequisites :bulb:
 * Docker
 * Python 3.8+
 * pipenv (optional)
@@ -27,7 +27,7 @@ or
 `uvicorn api.main:app --host 0.0.0.0 --port 8000`
 This will start the server on localhost:8000.
 
-# Building the Docker image
+# Building the Docker image :bulb:
 
 ## 1. Build the Docker image
 
@@ -40,7 +40,7 @@ This will build a Docker image with the tag fastapi-server.
 This will start the Docker container and expose port 8000.
 
 
-# API documentation
+# API documentation :sparkles:
 You can access the API documentation by going to localhost:8000/docs in your web browser. This will open the Swagger UI, which provides an interactive interface for exploring the APIs.
 
 # Testing the APIs
