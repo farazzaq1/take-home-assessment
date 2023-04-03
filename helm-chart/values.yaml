@@ -1,0 +1,10 @@
+# Default values for helm-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+name: api-server
+port: 80
+imageName: api-server
+imageTag: v1
+
+
