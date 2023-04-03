@@ -11,15 +11,15 @@ pipenv (optional)
 # Installation
 ## 1. Clone the repository
 
-git clone https://github.com/your-username/fastapi-server.git
+`git clone https://github.com/your-username/fastapi-server.git`
 
 ## 2. Install the dependencies
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 or
 
-pipenv install
+`pipenv install`
 (if you prefer to use Pipenv.)
 
 
