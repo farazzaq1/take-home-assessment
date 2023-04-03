@@ -3,8 +3,12 @@
 
 ### Minikube Setup on Ubuntu Document  ℹ️
 https://github.com/farazzaq1/take-home-assessment/blob/main/minikube_installation.md
+
 ### Api Server Setup  on Minikube Document ℹ️  
 https://github.com/farazzaq1/take-home-assessment/blob/main/Minikube_Setup.md
+
+### Installation of API Server using Helm ℹ️
+https://github.com/farazzaq1/take-home-assessment/blob/main/helm-chart/Readme.md
 
 This is a FastAPI server that exposes two APIs - jumble and audit. The jumble API takes a word and returns a jumbled version of it. The audit API returns the last 10 requests made to the jumble API.
 
