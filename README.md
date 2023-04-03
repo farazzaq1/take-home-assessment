@@ -1,9 +1,9 @@
 # take-home-assessment
 
 
-### Minikube Setup on Ubuntu Document: 
+### Minikube Setup on Ubuntu Document  :ℹ️:
 https://github.com/farazzaq1/take-home-assessment/blob/main/minikube_installation.md
-### Api Server Setup  on Minikube Document: 
+### Api Server Setup  on Minikube Document :i:  
 https://github.com/farazzaq1/take-home-assessment/blob/main/Minikube_Setup.md
 
 This is a FastAPI server that exposes two APIs - jumble and audit. The jumble API takes a word and returns a jumbled version of it. The audit API returns the last 10 requests made to the jumble API.
