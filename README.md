@@ -3,10 +3,9 @@
 This is a FastAPI server that exposes two APIs - jumble and audit. The jumble API takes a word and returns a jumbled version of it. The audit API returns the last 10 requests made to the jumble API.
 
 # Prerequisites
-Docker
-Docker Compose (optional)
-Python 3.8+
-pipenv (optional)
+* Docker
+* Python 3.8+
+* pipenv (optional)
 
 # Installation
 ## 1. Clone the repository
