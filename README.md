@@ -7,7 +7,7 @@ This is a FastAPI server that exposes two APIs - jumble and audit. The jumble AP
 * Python 3.8+
 * pipenv (optional)
 
-# Installation
+# Installation :rocket:
 ## 1. Clone the repository
 
 `git clone https://github.com/your-username/fastapi-server.git`
