@@ -44,17 +44,25 @@ This will start the Docker container and expose port 8000.
 # API documentation
 You can access the API documentation by going to localhost:8000/docs in your web browser. This will open the Swagger UI, which provides an interactive interface for exploring the APIs.
 
-## Testing the APIs
+# Testing the APIs
 You can test the APIs using curl.
 
-Jumble API
+## Jumble API
 
+### Without Basic Authentication
 `curl -X GET http://localhost:8000/jumble/python`
 This will return a jumbled version of the word python.
 
-Audit API
+### Using Basic Authentication
+`curl -i -X GET  'http://192.168.49.2:30305/audit?username=myusername&password=mypassword'`
 
+## Audit API
+
+### Without Basic Authentication
 `curl -X GET http://localhost:8000/audit`
 This will return the last 10 requests made to the jumble API.
+
+### Using Basic Authentication
+`curl -i -X GET  'http://192.168.49.2:30305/audit?username=myusername&password=mypassword'`
 
 That's it! You should now be able to update and build the FastAPI server locally.
