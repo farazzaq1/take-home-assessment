@@ -1,5 +1,7 @@
 # take-home-assessment
 
+Minikube Setup Document: https://github.com/farazzaq1/take-home-assessment/blob/main/Minikube_Setup.md
+
 This is a FastAPI server that exposes two APIs - jumble and audit. The jumble API takes a word and returns a jumbled version of it. The audit API returns the last 10 requests made to the jumble API.
 
 # Prerequisites :bulb:
