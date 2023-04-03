@@ -10,7 +10,7 @@ This is a FastAPI server that exposes two APIs - jumble and audit. The jumble AP
 # Installation :rocket:
 ## 1. Clone the repository
 
-`git clone https://github.com/your-username/fastapi-server.git`
+`git clone https://github.com/farazzaq1/take-home-assessment.git`
 
 ## 2. Install the dependencies
 
